@@ -1,13 +1,4 @@
 <h1 align="center">Hi 👋, I'm Shin Khant Maung</h1>
-<h3 align="center">I'm a noob from Burma</h3>
-
-- 🌱 I’m currently learning **Laravel , Django , Python and JavaScript**
-
-- 👨‍💻 All of my projects are available at [shinkhantmaung.github.io](shinkhantmaung.github.io)
-
-- 📝 I regularly write articles on [shinkhant.rf.gd](shinkhant.rf.gd)
-
-- 📫 How to reach me **shinkhantmaungs+contact@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
