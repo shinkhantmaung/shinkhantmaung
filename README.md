@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Shin Khant Maung</h1>
-<h3 align="center">I'm a noob form Burma</h3>
+<h3 align="center">I'm a noob from Burma</h3>
 
 - 🌱 I’m currently learning **Laravel , Django , Python and JavaScript**
 
