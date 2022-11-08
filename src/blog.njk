@@ -1,0 +1,40 @@
+---
+title: Blogs
+layout: 'base.njk'
+---
+    <!-- nav -->
+    <div class="notion-header page">
+        <div class="notion-header__cover no-cover">
+                
+        </div>
+        <div class="notion-header__content no-cover no-icon max-width">
+            <div class="notion-header__title-wrapper">
+                <a href="/">← Return home</a>
+            </div>
+        </div>
+    </div>
+    <!-- end of nav -->
+
+    <div class="super-content max-width">
+        <div class="notion-root">
+            <!-- header -->
+            <div>               
+                <h1 class="notion-heading">
+                    Blogs
+                </h1>        
+                <div class="notion-text">
+                </div>     
+        </div>
+        <!-- end of header -->            
+        <!-- featured -->
+        <div class="notion-collection inline" style="padding-top:40px;">                 
+            <div class="notion-collection-gallery">
+            {%- for post in collections.post | reverse -%}
+                {% include 'collection.njk'%}
+            {%- endfor-%}
+            </div>             
+        </div>
+        <!-- end of featured -->  
+        {% include 'footer.njk' %}        
+        </div>
+    </div>    
