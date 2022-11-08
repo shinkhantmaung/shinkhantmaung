@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOO!</title>
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <meta name="title" content="BOO!">
+    <meta name="description" content="A web developer with a knack for building tidy systems and an eye for design.">
+
+    <!-- style -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&family=Ubuntu+Condensed&display=swap" rel="stylesheet">   
+    
+    <!-- icon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/assets/favicon/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">	    
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-186976744-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-186976744-2');
+    </script>
+
+</head>
+<body>
+    <main>
+    <style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+body{
+	background-color : #fff;
+}
+</style>
+    <!-- nav -->
+    <div class="notion-header page">
+        <div class="notion-header__cover no-cover">               
+        </div>
+        <div class="notion-header__content no-cover no-icon max-width">
+        </div>
+    </div>
+    <!-- end of nav -->
+
+    <div class="super-content max-width">
+        <div class="notion-root">
+            <div>   
+                    <div>                 
+			<img src="../assets/site.gif" alt="ghost_404" class="center">     
+                    </div>     
+		   <div style="text-align: center;">
+			<h2 style="padding-bottom: 30px;">BOO! ~~ This page doesn't seem to exist.  </h2>
+			<a href="/">← Return home</a>
+		  </div>                                                   
+            </div>
+
+        </div>
+    </div>
+
+    </main>
+
+    <script>
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+        if (!user) {
+            window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+            });
+        }
+        });
+    }
+    </script>
+</body>
+</html>

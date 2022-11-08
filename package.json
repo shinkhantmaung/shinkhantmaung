@@ -1,0 +1,21 @@
+{
+  "name": "shinkhant_portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" : "eleventy --serve",
+    "build" : "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://shinkhantmaung@bitbucket.org/shinkhantmaung/shinkhant_portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/shinkhantmaung/shinkhant_portfolio#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}

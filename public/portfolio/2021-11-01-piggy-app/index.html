@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piggy App</title>
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <meta name="title" content="Piggy App">
+    <meta name="description" content="A web developer with a knack for building tidy systems and an eye for design.">
+
+    <!-- style -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&family=Ubuntu+Condensed&display=swap" rel="stylesheet">   
+    
+    <!-- icon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/assets/favicon/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">	    
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-186976744-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-186976744-2');
+    </script>
+
+</head>
+<body>
+    <main>
+        <!-- nav -->
+    <div class="notion-header page">
+        <div class="notion-header__cover no-cover">
+        </div>
+        <div class="notion-header__content no-cover no-icon max-width">
+            <a href="javascript:history.back()">← Return home</a>
+        </div>
+    </div>
+    <!-- end of nav -->
+
+    <div class="super-content max-width">
+        <div class="notion-root">
+            <!-- header -->
+            <div>               
+                <h1 class="notion-heading">
+                    Piggy App
+                    
+                     <div class="notion-text">
+                        <p>
+                            Budget Tracker App
+                        </p>
+                    </div>    
+                    
+                    
+                    
+                </h1>            
+        </div>
+        <!-- end of header -->     
+                         
+        <!-- featured -->
+        <div class="notion-image page-width">
+            <img alt="Coming Soon" sizes="100vw" src="/assets/portfolio/device-tablet-theme-light.png" >
+            <figcaption class="notion-caption">Coming Soon</figcaption>
+        </div>  
+        
+        <div class="notion-text">
+            <p><p>Take charge of your finances with piggy's online budget planner. Our free budget tracker helps you understand your spending for a brighter financial future.</p>
+<br>
+<div class="notion-image page-width">
+            <img alt="Piggy App" sizes="100vw" src="/assets/portfolio/piggy_info (copy).png">
+</div></p>
+        </div>
+        <!-- end of featured -->
+        <!-- footer  -->
+<div style="padding-top:70px;">
+    <p>
+        © <span id="year"></span> shinkhant.xyz All Rights Reserved.
+    </p>
+</div>
+<!-- end of footer  -->   
+
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+         
+        </div>
+    </div>    
+
+    </main>
+
+    <script>
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+        if (!user) {
+            window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+            });
+        }
+        });
+    }
+    </script>
+</body>
+</html>
