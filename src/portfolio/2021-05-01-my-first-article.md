@@ -10,18 +10,14 @@ isbutton: false
 button: Go To App
 link: https://google.com/
 ---
-<div class="notion-image page-width">
-            <img alt="This is a test" sizes="100vw" src="/assets/portfolio/cover.jpg">
-            <figcaption class="notion-caption">This is a test</figcaption>
-</div>
-
 ### Picular
 
 Picular is a rocket fast primary color generator using Google’s image search
 
-![](/assets/portfolio/twitter-post-1.png)
-
-
+<div class="notion-image page-width">
+            <img alt="This is a test" sizes="100vw" src="/assets/portfolio/twitter-post-1.png">
+            <figcaption class="notion-caption">This is a test</figcaption>
+</div>
 
 ### Sipapp
 
