@@ -10,15 +10,14 @@ isbutton: false
 button: Go To App
 link: https://google.com/
 ---
-### Picular
-<﻿h3>Picular</h3>
+## Picular
 Picular is a rocket fast primary color generator using Google’s image search
 
 <div class="notion-image page-width">
             <img alt="This is a test" sizes="100vw" src="/assets/portfolio/image-2.png">
 </div>
 
-### Sipapp
+## Sipapp
 
 A modern color picker for Mac user, that allows you to collect , organize and edit colors
 
@@ -27,7 +26,7 @@ A modern color picker for Mac user, that allows you to collect , organize and ed
 
 </div>
 
-### ColorBox
+## ColorBox
 
 perfect tool to turn your primary color into the perfect monochromatic color scheme.
 
@@ -35,7 +34,7 @@ perfect tool to turn your primary color into the perfect monochromatic color sch
             <img alt="This is a test" sizes="100vw" src="/assets/portfolio/image-4.png">
 </div>
 
-### Khroma
+## Khroma
 
 This tool uses artificial intelligence to learn which colors you like and create limitless palettes.
 
@@ -43,7 +42,7 @@ This tool uses artificial intelligence to learn which colors you like and create
             <img alt="This is a test" sizes="100vw" src="/assets/portfolio/image-5.png">
 </div>
 
-### Eva Design System
+## Eva Design System
 
 Eva web is a customizable UI library that makes it easy to create awesome color schemes
 
@@ -51,7 +50,7 @@ Eva web is a customizable UI library that makes it easy to create awesome color 
             <img alt="This is a test" sizes="100vw" src="/assets/portfolio/image-6.png">
 </div>
 
-### Open Color
+## Open Color
 
 Open Color is an open-source color scheme. optimized for UI elements like font, background, border, etc.
 
