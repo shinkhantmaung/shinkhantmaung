@@ -2,7 +2,7 @@
 title: Color Tools You Probably Don’t Know
 description: .
 date: 2021-05-01
-image: /assets/portfolio/img.png
+image: /assets/portfolio/completed.png
 imageAlt: .
 tags:
   - post
@@ -11,32 +11,52 @@ button: Go To App
 link: https://google.com/
 ---
 ### Picular
-
+<﻿h3>Picular</h3>
 Picular is a rocket fast primary color generator using Google’s image search
 
 <div class="notion-image page-width">
-            <img alt="This is a test" sizes="100vw" src="/assets/portfolio/twitter-post-1.png">
-            <figcaption class="notion-caption">This is a test</figcaption>
+            <img alt="This is a test" sizes="100vw" src="/assets/portfolio/image-2.png">
 </div>
 
 ### Sipapp
 
 A modern color picker for Mac user, that allows you to collect , organize and edit colors
 
+<div class="notion-image page-width">
+            <img alt="This is a test" sizes="100vw" src="/assets/portfolio/image-3.png">
+
+</div>
+
 ### ColorBox
 
 perfect tool to turn your primary color into the perfect monochromatic color scheme.
+
+<div class="notion-image page-width">
+            <img alt="This is a test" sizes="100vw" src="/assets/portfolio/image-4.png">
+</div>
 
 ### Khroma
 
 This tool uses artificial intelligence to learn which colors you like and create limitless palettes.
 
+<div class="notion-image page-width">
+            <img alt="This is a test" sizes="100vw" src="/assets/portfolio/image-5.png">
+</div>
+
 ### Eva Design System
 
 Eva web is a customizable UI library that makes it easy to create awesome color schemes
 
+<div class="notion-image page-width">
+            <img alt="This is a test" sizes="100vw" src="/assets/portfolio/image-6.png">
+</div>
+
 ### Open Color
 
 Open Color is an open-source color scheme. optimized for UI elements like font, background, border, etc.
+
+<div class="notion-image page-width">
+            <img alt="This is a test" sizes="100vw" src="/assets/portfolio/image-7.png">
+</div>
 
 What color tool do you use?
