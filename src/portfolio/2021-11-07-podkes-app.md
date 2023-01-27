@@ -7,7 +7,7 @@ imageAlt: Podkes Logo
 tags:
   - work
   - featured
-isbutton: true
+isbutton: false
 button: Download App
 link: https://bit.ly/get_podkes
 ---
