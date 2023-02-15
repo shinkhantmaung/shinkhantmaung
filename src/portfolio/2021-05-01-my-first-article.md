@@ -59,3 +59,5 @@ Open Color is an open-source color scheme. optimized for UI elements like font, 
 </div>
 
 What color tool do you use?
+
+<div class='MainAdverTiseMentDiv' id="mainAdvertisementDiv" data-name="" data-adsize="300x250" data-publisher="eyJpdiI6ImIyRVprZXhuYmVmMlkrOVhJS09DZ1E9PSIsInZhbHVlIjoic3AzS1R1S1VhWFphQnlFZGJyRU5Ddz09IiwibWFjIjoiM2M1ZjQ1NDQxODg3NGRkODI2MGJkNDczZDNiODc3MzYwZDgyNGUzYjM4M2Y1OWIwYzU5M2E2YjhhYjgzYTE2NSJ9"></div><script class="adScriptClass" src="https://mandalayads.com/assets/ads/ad.js"></script>
