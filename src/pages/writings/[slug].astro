@@ -2,7 +2,6 @@
 import { CollectionEntry, getCollection } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import formatDate from "@/utils/formatDate";
-import calculateReadingTime from "@/utils/calculateReadingTime";
 
 export async function getStaticPaths() {
   const writings = await getCollection("writings");
@@ -18,19 +17,16 @@ type Props = {
 };
 
 const { write } = Astro.props;
-const { Content } = await write.render();
+const { Content, remarkPluginFrontmatter } = await write.render();
 
-const contentText = Content.toString(); // Convert to string (ensure this is plain text)
-const strippedText = contentText.replace(/(<([^>]+)>)/gi, ""); // Strip out HTML tags
-const minutesRead = calculateReadingTime(strippedText);
 ---
 
 <Layout title={write.data.title} description={write.data.description} image={write.data.image}>
   <main class="write mx-auto flex w-full flex-col gap-4">
     <header role="presentation">
-      <h1 class="text-7xl">{write.data.title}</h1>
+      <h1 class="text-3xl">{write.data.title}</h1>
       <p class="text-neutral-800">
-        {formatDate(write.data.publishedAt)} / {minutesRead}
+        {formatDate(write.data.publishedAt)} / {remarkPluginFrontmatter.minutesRead}
       </p>
     </header>
 

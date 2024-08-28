@@ -1,5 +1,5 @@
 .write p {
-  @apply leading-7;
+  @apply leading-7 font-sans;
 }
 
 .write code {
@@ -20,6 +20,7 @@
 
 .write a {
   @apply text-green-500 underline;
+  target: blank;
 }
 
 .write ul {
@@ -38,12 +39,18 @@
   @apply bg-transparent;
 }
 
+/* Responsive table container */
+.write .table-container {
+  @apply overflow-x-auto;
+}
+
 /* Styles for tables */
 .write table {
   @apply w-full mt-4 border-collapse;
 }
 
-.write th, .write td {
+.write th,
+.write td {
   @apply border border-neutral-300 px-4 py-2;
 }
 
