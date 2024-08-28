@@ -1,0 +1,12 @@
+---
+import type { Project } from "@/data/projects";
+
+type Props = Project;
+
+const { title } = Astro.props;
+
+---
+
+<>
+  <h1 class="w-fit text-lg rounded-md bg-green-500 text-white px-2 py-2">{title}</h1>
+</>

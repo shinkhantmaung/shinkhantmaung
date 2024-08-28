@@ -1,0 +1,26 @@
+---
+import formatDate from "@/utils/formatDate";
+
+type Props = {
+  title: string;
+  publishedAt: Date;
+  description: string;
+  slug: string;
+};
+
+const { title, publishedAt, description, slug } = Astro.props;
+---
+
+<a
+  class="group flex w-full cursor-pointer flex-col justify-between gap-2 transition-all md:flex-row md:items-center"
+  href={`/writings/${slug}`}
+>
+  <div
+    class="flex w-full flex-col justify-between gap-2 md:flex-row md:items-center"
+  >
+    <p class="underline decoration-1 duration-300 hover:decoration-green-400">{title}</p>
+    <div class="flex flex-row items-center gap-4 text-neutral-500">
+      <p>{formatDate(publishedAt)}</p>
+    </div>
+  </div>
+</a>

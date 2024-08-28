@@ -1,0 +1,68 @@
+.write p {
+  @apply leading-7;
+}
+
+.write code {
+  @apply rounded-sm bg-neutral-800 px-1 py-[2px] text-orange-500;
+}
+
+.write h2 {
+  @apply mt-6 text-3xl text-neutral-950;
+}
+
+.write h3 {
+  @apply mt-4 text-xl text-neutral-950;
+}
+
+.write code {
+  @apply rounded-sm bg-neutral-950 px-1 py-[2px] text-green-500;
+}
+
+.write a {
+  @apply text-green-500 underline;
+}
+
+.write ul {
+  @apply list-disc;
+}
+
+.write blockquote {
+  @apply flex flex-row gap-2 before:block before:h-auto before:w-1 before:max-w-[1px] before:bg-green-400 before:content-[''];
+}
+
+.write pre {
+  @apply p-4;
+}
+
+.write pre > code {
+  @apply bg-transparent;
+}
+
+/* Styles for tables */
+.write table {
+  @apply w-full mt-4 border-collapse;
+}
+
+.write th, .write td {
+  @apply border border-neutral-300 px-4 py-2;
+}
+
+.write th {
+  @apply bg-neutral-200 font-bold text-neutral-800;
+}
+
+.write td {
+  @apply bg-neutral-100 text-neutral-700;
+}
+
+.write thead {
+  @apply bg-neutral-300;
+}
+
+.write tbody tr:nth-child(odd) {
+  @apply bg-neutral-100;
+}
+
+.write tbody tr:nth-child(even) {
+  @apply bg-neutral-50;
+}

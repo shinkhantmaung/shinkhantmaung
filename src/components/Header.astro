@@ -1,0 +1,53 @@
+---
+import removeTrailingSlash from "@/utils/removeTrailingSlash";
+import presentation from "@/data/presentation";
+
+const pathname = removeTrailingSlash(Astro.url.pathname);
+---
+
+<header class="z-40 flex w-full flex-col gap-2 md:flex-row md:justify-between">
+
+  <nav role="navigation">
+    <ul role="list" class="flex flex-row gap-2">
+      <li>
+        <a
+          href="/"
+          class:list={{
+            ["hover:text-neutral-950"]: true,
+            ["text-green-500"]: pathname === "/",
+          }}>home</a
+        >
+      </li>
+      <li>/</li>
+      <li>
+        <a
+          href="/writings"
+          class:list={{
+            ["hover:text-neutral-950"]: true,
+            ["text-green-500"]: pathname.startsWith('/writings') ,
+          }}>writings</a
+        >
+      </li>
+      <!-- <li>/</li>
+      <li>
+        <a
+          href="/ships"
+          class:list={{
+            ["hover:text-neutral-950"]: true,
+            ["text-green-500"]: pathname === "/ships",
+          }}>ships</a
+        >
+      </li>
+      <li>/</li>
+      <li>
+        <a
+          href="/travels"
+          class:list={{
+            ["hover:text-neutral-950"]: true,
+            ["text-green-500"]: pathname === "/travels",
+          }}>travels</a
+        >
+      </li> -->
+    </ul>
+  </nav>
+</header>
