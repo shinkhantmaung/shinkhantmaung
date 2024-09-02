@@ -1,0 +1,22 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import formatDate from "@/utils/formatDate";
+import travels from "@/data/travels";
+import TravelCard from "@/components/TravelCard.astro";
+---
+
+<Layout>
+  <main class="flex flex-col gap-20">
+    <h1 class="text-3xl font-bold">Travels</h1>
+    <article class="flex flex-col gap-5">
+      <div class="grid grid-cols-4 gap-5 md:grid-cols-5 sm:grid-cols-4">
+          {
+            travels.length !== 0 &&
+            travels.map((travel) => <TravelCard {...travel} />)
+          }
+      </div>
+  </article>
+  
+  
+  </main>
+</Layout>
