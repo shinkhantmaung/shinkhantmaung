@@ -3,19 +3,37 @@ import Layout from "@/layouts/Layout.astro";
 import formatDate from "@/utils/formatDate";
 import travels from "@/data/travels";
 import TravelCard from "@/components/TravelCard.astro";
+
+const groupedTravels = travels.reduce((acc, travel) => {
+  if (!acc[travel.country]) {
+    acc[travel.country] = [];
+  }
+  acc[travel.country].push(travel);
+  return acc;
+}, {});
+
+const countries = Object.keys(groupedTravels);
 ---
 
 <Layout>
   <main class="flex flex-col gap-20">
     <h1 class="text-3xl font-bold">Travels</h1>
     <article class="flex flex-col gap-5">
-      <div class="grid grid-cols-4 gap-5 md:grid-cols-5 sm:grid-cols-4">
-          {
-            travels.length !== 0 &&
-            travels.map((travel) => <TravelCard {...travel} />)
-          }
-      </div>
-  </article>
+      {countries.length > 0 ? (
+        countries.map((country) => (
+          <div class="flex flex-col gap-5" key={country}>
+            <h2 class="text-2xl font-semibold">{country} <span class="text-sm text-gray-600">{groupedTravels[country].length} cities</span></h2>
+            <div class="grid grid-cols-4 gap-5 md:grid-cols-5 sm:grid-cols-4">
+              {groupedTravels[country].map((travel) => (
+                <TravelCard key={travel.id} {...travel} />
+              ))}
+            </div>
+          </div>
+        ))
+      ) : (
+        <p>No travel data available.</p>
+      )}
+    </article>
   
   
   </main>
