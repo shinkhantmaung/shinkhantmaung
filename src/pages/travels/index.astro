@@ -23,7 +23,7 @@ const countries = Object.keys(groupedTravels);
         countries.map((country) => (
           <div class="flex flex-col gap-5" key={country}>
             <h2 class="text-2xl font-semibold">{country} <span class="text-sm text-gray-600">{groupedTravels[country].length} cities</span></h2>
-            <div class="grid grid-cols-4 gap-5 md:grid-cols-5 sm:grid-cols-4">
+            <div class="grid grid-cols-2 gap-5 md:grid-cols-5 sm:grid-cols-2">
               {groupedTravels[country].map((travel) => (
                 <TravelCard key={travel.id} {...travel} />
               ))}
