@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Tools That I Used Most in 2023.md",
+                "file": "Git Branch Naming Conventions.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Tools That I Used Most in 2023.md",
+                "file": "Git Branch Naming Conventions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The Tools That I Used Most in 2023.md",
+                "file": "Git Branch Naming Conventions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The Tools That I Used Most in 2023.md"
+                "file": "Git Branch Naming Conventions.md"
               }
             }
           }
@@ -148,20 +148,21 @@
   },
   "active": "aae1a6d1118dd2b0",
   "lastOpenFiles": [
-    "untitled.md",
+    "Hello World.md",
+    "A Milestone in YCR, The Arrival of New Diesel Railcars.md",
+    "First Class Function Passing Functions as Arguments.md",
+    "crd. လူသားများ.md",
+    "Git Branch Naming Conventions.md",
     "The Tools That I Used Most in 2023.md",
+    "The legendary Shwe Mann May mail train.md",
+    "untitled.md",
     "Python Memory Allocation.md",
     "Python File Handling.md",
-    "First Class Function Passing Functions as Arguments.md",
     "a story about my first wiki contribution.md",
-    "A Milestone in YCR, The Arrival of New Diesel Railcars.md",
-    "The legendary Shwe Mann May mail train.md",
     "Python Argument.md",
     "Extended Unpacking.md",
-    "Hello World.md",
     "Dynamic Memory Allocation in C.md",
     "2023-05-24.md",
-    "crd. လူသားများ.md",
     "2024-08-28.md"
   ]
 }
