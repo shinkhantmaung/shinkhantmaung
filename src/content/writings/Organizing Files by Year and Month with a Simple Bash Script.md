@@ -1,7 +1,7 @@
 ---
 title: Organizing Files by Year and Month with a Simple Bash Script
 image: 
-publishedAt: 2024-09-10
+publishedAt: 2024-10-09
 description: Organizing Files by Year and Month with a Simple Bash Script
 slug: Organizing Files by Year and Month with a Simple Bash Script
 isPublish: true
