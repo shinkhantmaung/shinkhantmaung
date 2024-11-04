@@ -1,6 +1,6 @@
 ---
 title: crd. လူသားများ
-image: ../../../public/assets/4.jpg
+image: /public/assets/4.jpg
 publishedAt: 2023-05-24
 description: ဓာတ်ပုံတစ်ပုံနဲ့ ပတ်သက်သော ဝမ်းနည်းဝမ်းသာမျိုးစုံ
 slug: crd.-human

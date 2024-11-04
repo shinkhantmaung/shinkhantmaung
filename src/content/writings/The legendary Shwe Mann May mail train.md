@@ -1,6 +1,6 @@
 ---
 title: The legendary Shwe Mann May mail train
-image: ../../../public/assets/05.jpg
+image: /public/assets/05.jpg
 publishedAt: 2024-06-15
 description: တခေတ်တခါက ရွှေမန်းမေစာပို့ရထား
 slug: the-legendary-shwe-mann-may-mail-train

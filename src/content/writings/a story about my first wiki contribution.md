@@ -1,6 +1,6 @@
 ---
 title: A story about my first wiki contribution
-image: ../../../public/assets/03.jpg
+image: /public/assets/03.jpg
 publishedAt: 2022-03-10
 description: ပထမဆုံးသော ဝီကီတည်းဖြတ်မှု အတွေ့အကြုံ
 slug: a-story-about-my-first-wiki-contribution

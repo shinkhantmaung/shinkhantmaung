@@ -1,6 +1,6 @@
 ---
 title: Python Memory Allocation
-image: ../../../public/assets/00.jpg
+image: 
 publishedAt: 2020-05-19
 description: Lorem ipsum dolor sit amet consectetur et ultrices blandit neque ege
 slug: python-memory-allocation

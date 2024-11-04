@@ -1,6 +1,6 @@
 ---
 title: "Hello World"
-image: "../../../public/assets/01.jpg"
+image: "/public/assets/01.jpg"
 publishedAt: 2024-08-28
 description: "မင်္ဂလာပါ ကမ္ဘာမြေ"
 slug: "hello-world"

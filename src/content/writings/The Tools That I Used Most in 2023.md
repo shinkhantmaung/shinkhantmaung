@@ -1,6 +1,6 @@
 ---
 title: The Tools That I Used Most in 2023
-image: ../../../public/assets/07.jpg
+image: /public/assets/07.jpg
 publishedAt: 2023-12-30
 description: ၂၀၂၃ ခုနှစ်အတွင်း အသုံးများခဲ့တဲ့ tools များ
 slug: commonly-used-tools-in-2023
