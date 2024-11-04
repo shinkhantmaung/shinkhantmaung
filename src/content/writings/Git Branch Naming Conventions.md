@@ -1,6 +1,6 @@
 ---
 title: Git Branch Naming Conventions
-image: /public/assets/08.jpg
+image: /assets/08.jpg
 publishedAt: 2024-09-27
 description: Git Branch အမည်ပေးခြင်းအနုပညာ
 slug: Git Branch Naming Conventions

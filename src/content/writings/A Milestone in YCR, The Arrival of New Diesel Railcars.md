@@ -1,6 +1,6 @@
 ---
 title: "A Milestone in YCR: The Arrival of Diesel Railcars"
-image: /public/assets/06.jpg
+image: /assets/06.jpg
 publishedAt: 2023-04-10
 description: ရန်ကုန်မြို့ပတ်က ပထမဆုံး သံလမ်းပြေးဒီဇယ်ရထား
 slug: A Milestone in YCR The Arrival of New Diesel Railcars"
