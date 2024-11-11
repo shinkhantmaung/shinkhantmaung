@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Organizing Files by Year and Month with a Simple Bash Script.md",
+                "file": "ဒီဇယ်စက်ခေါင်း စမ်းသပ် ခုတ်မောင်းစဥ်က.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "ဒီဇယ်စက်ခေါင်း စမ်းသပ် ခုတ်မောင်းစဥ်က"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,14 +68,17 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7c2bf850d016f533",
@@ -85,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Organizing Files by Year and Month with a Simple Bash Script.md",
+                "file": "ဒီဇယ်စက်ခေါင်း စမ်းသပ် ခုတ်မောင်းစဥ်က.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +102,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for ဒီဇယ်စက်ခေါင်း စမ်းသပ် ခုတ်မောင်းစဥ်က"
             }
           },
           {
@@ -102,10 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Organizing Files by Year and Month with a Simple Bash Script.md",
+                "file": "ဒီဇယ်စက်ခေါင်း စမ်းသပ် ခုတ်မောင်းစဥ်က.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from ဒီဇယ်စက်ခေါင်း စမ်းသပ် ခုတ်မောင်းစဥ်က"
             }
           },
           {
@@ -116,7 +129,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Organizing Files by Year and Month with a Simple Bash Script.md"
-              }
+                "file": "ဒီဇယ်စက်ခေါင်း စမ်းသပ် ခုတ်မောင်းစဥ်က.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of ဒီဇယ်စက်ခေါင်း စမ်းသပ် ခုတ်မောင်းစဥ်က"
             }
           }
         ]
@@ -148,8 +165,10 @@
   },
   "active": "aae1a6d1118dd2b0",
   "lastOpenFiles": [
-    "Git Branch Naming Conventions.md",
+    "untitled.md",
+    "ဒီဇယ်စက်ခေါင်း စမ်းသပ် ခုတ်မောင်းစဥ်က.md",
     "Organizing Files by Year and Month with a Simple Bash Script.md",
+    "Git Branch Naming Conventions.md",
     "The Tools That I Used Most in 2023.md",
     "Python File Handling.md",
     "Hello World.md",
@@ -157,7 +176,6 @@
     "First Class Function Passing Functions as Arguments.md",
     "crd. လူသားများ.md",
     "The legendary Shwe Mann May mail train.md",
-    "untitled.md",
     "Python Memory Allocation.md",
     "a story about my first wiki contribution.md",
     "Python Argument.md",
