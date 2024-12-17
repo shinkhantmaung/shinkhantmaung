@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f8d9740ade5a4b00",
+        "id": "0bf59a5c76d0665b",
         "type": "tabs",
         "children": [
           {
-            "id": "aae1a6d1118dd2b0",
+            "id": "ee1298451fafc7a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7c2bf850d016f533",
@@ -163,9 +162,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aae1a6d1118dd2b0",
+  "active": "ee1298451fafc7a4",
   "lastOpenFiles": [
     "untitled.md",
+    "2024-12-07.md",
+    "Untitled.canvas",
     "ဒီဇယ်စက်ခေါင်း စမ်းသပ် ခုတ်မောင်းစဥ်က.md",
     "Organizing Files by Year and Month with a Simple Bash Script.md",
     "Git Branch Naming Conventions.md",

@@ -163,12 +163,19 @@ export type Travel = {
     },
     {
         title: 'Kyaikto',
+        imageSrc: 'https://static.wikia.nocookie.net/slowly2721/images/b/ba/Flag-mm.png/revision/latest?cb=20211229160919',
         country: 'Myanmar'
     },
     {
         title: 'Mawlamyine',
+        imageSrc: 'https://static.wikia.nocookie.net/slowly2721/images/b/ba/Flag-mm.png/revision/latest?cb=20211229160919',
         country: 'Myanmar'
-    }
+    },
+    {
+        title: 'Bago',
+        imageSrc: 'https://creatorspace.imgix.net/users/clk3g7grl0a5ep101n228b8fv/1n6ymuY7WhKEn5R9-vlcsnap-2024-08-31-09h45m35s622.png?w=750&h=750',
+        country: 'Myanmar'
+    },
   ];
   
   export default travels;
