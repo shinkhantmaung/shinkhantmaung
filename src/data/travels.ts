@@ -173,7 +173,7 @@ export type Travel = {
     },
     {
         title: 'Bago',
-        imageSrc: 'https://creatorspace.imgix.net/users/clk3g7grl0a5ep101n228b8fv/1n6ymuY7WhKEn5R9-vlcsnap-2024-08-31-09h45m35s622.png?w=750&h=750',
+        imageSrc: 'https://creatorspace.imgix.net/users/clk3g7grl0a5ep101n228b8fv/O1hjhd2aNvfBiARZ-VideoCapture_20241207-164750.jpg?w=750&h=750',
         country: 'Myanmar'
     },
   ];
