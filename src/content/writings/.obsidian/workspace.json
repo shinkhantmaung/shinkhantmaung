@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ဒီဇယ်စက်ခေါင်း စမ်းသပ် ခုတ်မောင်းစဥ်က.md",
+                "file": "2024 recap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ဒီဇယ်စက်ခေါင်း စမ်းသပ် ခုတ်မောင်းစဥ်က"
+              "title": "2024 recap"
             }
           }
         ]
@@ -164,18 +164,19 @@
   },
   "active": "ee1298451fafc7a4",
   "lastOpenFiles": [
-    "untitled.md",
-    "2024-12-07.md",
+    "Hello World.md",
+    "2024 recap.md",
     "Untitled.canvas",
+    "untitled.md",
+    "crd. လူသားများ.md",
+    "Git Branch Naming Conventions.md",
+    "2024-12-07.md",
     "ဒီဇယ်စက်ခေါင်း စမ်းသပ် ခုတ်မောင်းစဥ်က.md",
     "Organizing Files by Year and Month with a Simple Bash Script.md",
-    "Git Branch Naming Conventions.md",
     "The Tools That I Used Most in 2023.md",
     "Python File Handling.md",
-    "Hello World.md",
     "A Milestone in YCR, The Arrival of New Diesel Railcars.md",
     "First Class Function Passing Functions as Arguments.md",
-    "crd. လူသားများ.md",
     "The legendary Shwe Mann May mail train.md",
     "Python Memory Allocation.md",
     "a story about my first wiki contribution.md",
