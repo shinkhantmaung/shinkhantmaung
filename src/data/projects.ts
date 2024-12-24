@@ -21,6 +21,11 @@ const projects: Project[] = [
     description: "Plugin for Myanmar Township Field",
     link: "https://github.com/shinkhantmaung/filament-myanmar-township-field",
   },
+  {
+    title: "Postage Stamp Template - Figma",
+    description: "A customizable postage stamp template on Figma",
+    link: "https://www.figma.com/community/file/1453255505992716593/postage-stamp-template",
+  },
 ];
 
 export default projects;
