@@ -8,8 +8,8 @@ export type Project = {
 const projects: Project[] = [
   {
     title: "GO Transit",
-    description: "Mini Telegram app for Train Timetable",
-    link: "https://t.me/gotransit_bot",
+    description: "Mini app for Burma Train Transportion",
+    link: "hhttps://www.facebook.com/gotransitapp/",
   },
   {
     title: "Laravel Nextui Starter",
@@ -25,6 +25,11 @@ const projects: Project[] = [
     title: "Postage Stamp Template - Figma",
     description: "A customizable postage stamp template on Figma",
     link: "https://www.figma.com/community/file/1453255505992716593/postage-stamp-template",
+  },
+  {
+    title: "Currency to MMK Converter",
+    description: " a browser extension that converts currencies to Myanmar Kyat (MMK)",
+    link: "https://github.com/shinkhantmaung/currency-to-mmk-converter",
   },
 ];
 
