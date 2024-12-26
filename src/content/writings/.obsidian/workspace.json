@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024 recap.md",
+                "file": "Social Media.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024 recap"
+              "title": "Social Media"
             }
           }
         ]
@@ -164,10 +164,11 @@
   },
   "active": "ee1298451fafc7a4",
   "lastOpenFiles": [
-    "Hello World.md",
-    "2024 recap.md",
-    "Untitled.canvas",
     "untitled.md",
+    "Social Media.md",
+    "2024 recap.md",
+    "Hello World.md",
+    "Untitled.canvas",
     "crd. လူသားများ.md",
     "Git Branch Naming Conventions.md",
     "2024-12-07.md",
