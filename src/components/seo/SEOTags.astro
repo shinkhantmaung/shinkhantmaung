@@ -9,8 +9,7 @@ type Props = HeadTags;
 const { title, description, image, noindex, og } = Astro.props;
 
 const DEFAULT_TITLE_PAGE = "Shin's - internet space";
-const DEFAULT_DESCRIPTION_PAGE =
-  "A internet space for Shin.";
+const DEFAULT_DESCRIPTION_PAGE = "A internet space for Shin.";
 const DEFAULT_URL_SITE = SITE_URL;
 
 const openGraph = {
@@ -20,6 +19,21 @@ const openGraph = {
   alt: og?.alt || DEFAULT_DESCRIPTION_PAGE,
   url: DEFAULT_URL_SITE,
   description: description || DEFAULT_DESCRIPTION_PAGE,
+};
+
+// JSON-LD structured data for your website
+const jsonLdData = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Shin Khant Maung",
+  "url": SITE_URL,
+  "logo": `${SITE_URL}/favicon.svg`,
+  "sameAs": [
+    "https://www.linkedin.com/in/shinkhantmaung",
+    "https://github.com/shinkhantmaung",
+    "https://twitter.com/shinkhantmaungs",
+    "https://bsky.app/profile/shinkhantmaung.bsky.social"
+  ]
 };
 ---
 
@@ -76,4 +90,8 @@ const openGraph = {
       },
     ]}
   />
+    <script
+    type="application/ld+json"
+    set:html={JSON.stringify(jsonLdData)}
+    />
 </head>
