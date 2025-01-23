@@ -13,7 +13,7 @@ export type Travel = {
     },
     {
         title: 'Singapore',
-        imageSrc: '',
+        imageSrc: 'https://creatorspace.imgix.net/users/clk3g7grl0a5ep101n228b8fv/sK98l5hFIIOUyRKy-photo1jpg.jpg?w=750&h=750',
         country: 'Singapore 🇸🇬'
     },
     {
