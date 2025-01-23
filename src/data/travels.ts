@@ -22,6 +22,11 @@ export type Travel = {
         country: 'Myanmar 🇲🇲'
     },
     {
+        title: 'Minbu',
+        imageSrc: 'https://static.wikia.nocookie.net/slowly2721/images/b/ba/Flag-mm.png/revision/latest?cb=20211229160919',
+        country: 'Myanmar 🇲🇲'
+    },
+    {
         title: 'Sagaing',
         imageSrc: 'https://creatorspace.imgix.net/users/clk3g7grl0a5ep101n228b8fv/TsQgVPFshcZRglIx-image.png?w=750&h=750',
         country: 'Myanmar 🇲🇲'
@@ -118,11 +123,6 @@ export type Travel = {
     },
     {
         title: 'Pyay',
-        imageSrc: 'https://static.wikia.nocookie.net/slowly2721/images/b/ba/Flag-mm.png/revision/latest?cb=20211229160919',
-        country: 'Myanmar 🇲🇲'
-    },
-    {
-        title: 'Minbu',
         imageSrc: 'https://static.wikia.nocookie.net/slowly2721/images/b/ba/Flag-mm.png/revision/latest?cb=20211229160919',
         country: 'Myanmar 🇲🇲'
     },
