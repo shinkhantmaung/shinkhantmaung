@@ -9,17 +9,17 @@ const projects: Project[] = [
   {
     title: "GO Transit",
     description: "Mini app for Burma Train Transportion",
-    link: "hhttps://www.facebook.com/gotransitapp/",
+    link: "https://www.facebook.com/gotransitapp/",
+  },
+  {
+    title: "BurmaFocus",
+    description: "Burmese Lofi & Promodoro Timer with Studio Ghibli theme",
+    link: "https://burmafocus.netlify.app/",
   },
   {
     title: "Laravel Nextui Starter",
     description: "A skeleton project for Laravel and Inertia.",
     link: "https://github.com/shinkhantmaung/laravel-inertia-react-nextui-starter",
-  },
-  {
-    title: "Filament Myanmar Township Field",
-    description: "Plugin for Myanmar Township Field",
-    link: "https://github.com/shinkhantmaung/filament-myanmar-township-field",
   },
   {
     title: "Postage Stamp Template - Figma",
